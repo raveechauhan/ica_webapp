@@ -17,11 +17,7 @@ const nextConfig = {
       },
     ],
   },
-  reactStrictMode: true,
-  output: 'export',
-  distDir: 'dist',
-  trailingSlash: true,
-  assetPrefix: '.',
+  assetPrefix: '/',
 };
 
 module.exports = nextConfig;
